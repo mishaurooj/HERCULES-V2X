@@ -129,8 +129,8 @@ Total configurations evaluated: 32
 # 📊 Figures
 
 ![Pareto](Figures/hercules_pareto.png)
-![Heatmap](Figures/hercules_heatmap.png) ![Privacy
-Utility](Figures/hercules_privacy_utility.png)
+![Heatmap](Figures/hercules_heatmap.png) 
+![PrivacyUtility](Figures/hercules_privacy_utility.png)
 
 <table>
 <tr>
