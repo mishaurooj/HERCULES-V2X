@@ -167,6 +167,83 @@ Total configurations evaluated: 32
 ✔ Privacy--utility evaluation\
 ✔ Operational risk calibration
 
+---
+
+# 📊 HERCULES-V2X PRO: Detection & Risk Metrics
+
+🟢 = Best observed  
+🔴 = Lowest observed  
+
+| Setting | Thr | Hid | Cl | ε | Accuracy | F1 | ROC | MCC | RiskObj | Train(s) |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| S9 | 2.0 | 64 | 2 | 0.00 | 🟢 **0.9223** | 🟢 **0.9578** | 0.9025 | 🟢 **0.5222** | 0.9156 | 304.56 |
+| S29 | 2.5 | 64 | 2 | 0.00 | 0.9213 | 0.9573 | 🟢 **0.9037** | 0.5124 | 0.9294 | 320.74 |
+| S24 | 2.5 | 32 | 4 | 0.01 | 🔴 0.9081 | 🔴 0.9505 | 0.8476 | 🔴 0.3935 | 0.9359 | 319.91 |
+| S30 | 2.5 | 64 | 2 | 0.01 | 0.9213 | 0.9573 | 0.8996 | 0.5130 | 0.9297 | 🔴 **327.81** |
+
+Full 32-configuration results available in paper.
+
+---
+---
+
+# ⚙️ Efficiency, Privacy & Scalability Metrics
+
+| Setting | Train(s) | Eff_Acc | Eff_F1 | ScalCoeff | DP-Loss | Final Acc |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| S11 | 🟢 **299.42** | 🟢 0.00305 | 🟢 0.00318 | 0.9908 | 0.0000 | 0.9138 |
+| S9  | 304.56 | 0.00303 | 0.00315 | 1.0000 | 0.0000 | 🟢 **0.9223** |
+| S30 | 🔴 **327.81** | 🔴 0.00281 | 🔴 0.00292 | 1.0000 | 0.0000 | 0.9213 |
+
+Small perturbation (ε = 0.01) introduces minimal DP-Loss while maintaining > 0.91 accuracy across all settings.
+
+---
+---
+
+# 📚 Comparison with Related Works
+
+| Domain / Method | AV / CAN | Cross-Dataset | Multi-Objective |
+|-----------------|:--------:|:-------------:|:---------------:|
+| In-vehicle DL with knowledge graph | ✅ | ❌ | ❌ |
+| Survey on ML IDS for CAVs | ✅ | ❌ | ❌ |
+| Hybrid machine + deep learning IDS | ❌ | ❌ | ❌ |
+| Deep IDS for Internet of Vehicles | ✅ | ❌ | ❌ |
+| Signature IDS with fuzzy clustering | ❌ | ❌ | ❌ |
+| Comprehensive IDS survey | ❌ | ❌ | ❌ |
+| MLP-based automotive IDS deployment | ✅ | ❌ | ❌ |
+| Quantum ML ID | ❌ | ❌ | ❌ |
+| Malware security in autonomous vehicles | ✅ | ❌ | ❌ |
+| IDS techniques and datasets survey | ❌ | ❌ | ❌ |
+| IoT ID review | ❌ | ❌ | ❌ |
+| Cyber risk analytics in IoT | ❌ | ❌ | ❌ |
+| Privacy protection deep model | ❌ | ❌ | ❌ |
+| IoT packet header IDS method | ❌ | ❌ | ❌ |
+| Vehicular detection network (DL) | ✅ | ❌ | ❌ |
+| Tracking detection framework | ❌ | ❌ | ❌ |
+| Lightweight edge defense method | ❌ | ❌ | ❌ |
+| CAV cybersecurity review | ✅ | ❌ | ❌ |
+| Contrastive learning detection model | ❌ | ❌ | ❌ |
+| Federated poisoning defense | ❌ | ❌ | ❌ |
+| IoT SoC applications review | ❌ | ❌ | ❌ |
+| Transformer model for autonomous driving | ✅ | ❌ | ❌ |
+| V2X multimodal fusion model | ✅ | ❌ | ❌ |
+| Attention-based vulnerability detection | ❌ | ❌ | ❌ |
+| Network fuzzing framework | ❌ | ❌ | ❌ |
+| Transfer learning malware defense | ❌ | ❌ | ❌ |
+| Edge multimodal transformer framework | ✅ | ❌ | ❌ |
+| **HERCULES-V2X PRO (Proposed)** | ✅ | ✅ | ✅ |
+
+---
+
+# 🧠 Layer-Wise Architectural Comparison
+
+| Model | Accuracy | F1 | AUC | Stat Guard | Deep Rep | Risk Calib | Federated | Privacy |
+|-------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| k-NN (Song 2020) | 93.42% | 0.1236 | — | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Naïve Bayes | 90.98% | 0.9497 | — | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Decision Tree | 89.74% | 0.9163 | — | ❌ | ❌ | ❌ | ❌ | ❌ |
+| GIDS (GAN) | 98.0% | — | 0.999 | ❌ | ✅ | ❌ | ❌ | ❌ |
+| **HERCULES-V2X PRO** | **92.23%** | **0.9578** | **0.9037** | ✅ | ✅ | ✅ | ✅ | ✅ |
+
 ------------------------------------------------------------------------
 
 # 📜 Citation
