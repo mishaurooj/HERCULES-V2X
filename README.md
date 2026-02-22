@@ -13,11 +13,11 @@ autonomous vehicles.
 Unlike conventional IDS systems that optimize only classification
 accuracy, HERCULES-V2X PRO integrates:
 
--   Statistical deviation screening\
--   Adaptive neural inference\
--   Operational risk calibration\
--   Federated distributed optimization\
--   Privacy--utility tradeoff modeling\
+-   Statistical deviation screening
+-   Adaptive neural inference
+-   Operational risk calibration
+-   Federated distributed optimization
+-   Privacy--utility tradeoff modeling
 -   Multi-objective Pareto analysis
 
 The complete research paper is included in this repository.
@@ -26,7 +26,7 @@ The complete research paper is included in this repository.
 
 # 🏗 Architecture Overview
 
-![Architecture](Figures/End-to-end HERCULES-V2X.png)
+![Architecture](Figures/end-to-end-HERCULES-V2X.png)
 
 ### 🔹 Layer I --- Statistical Guard
 
@@ -54,6 +54,9 @@ Source: Hacking and Countermeasure Research Lab (HCRL), Korea University
 
 Includes: - Denial-of-Service (DoS) - Fuzzy/Flooding attacks - Benign
 traffic
+
+# 🏗 Dataset Overview
+![Architecture](Figures/dataset.png)
 
 ### Required Citations
 
