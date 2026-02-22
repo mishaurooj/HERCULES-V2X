@@ -132,6 +132,28 @@ Total configurations evaluated: 32
 ![Heatmap](Figures/hercules_heatmap.png) ![Privacy
 Utility](Figures/hercules_privacy_utility.png)
 
+<table>
+<tr>
+<td><img src="Figures/1 (1).png" width="450"></td>
+<td><img src="Figures/1 (2).png" width="450"></td>
+</tr>
+<tr>
+<td><img src="Figures/1 (3).png" width="450"></td>
+<td><img src="Figures/1 (4).png" width="450"></td>
+</tr>
+<tr>
+<td><img src="Figures/1 (5).png" width="450"></td>
+<td><img src="Figures/1 (6).png" width="450"></td>
+</tr>
+<tr>
+<td><img src="Figures/1 (7).png" width="450"></td>
+<td><img src="Figures/1 (8).png" width="450"></td>
+</tr>
+<tr>
+<td><img src="Figures/1 (9).png" width="450"></td>
+<td><img src="Figures/1 (10).png" width="450"></td>
+</tr>
+</table>
 ------------------------------------------------------------------------
 
 # 🧠 Novel Contributions
