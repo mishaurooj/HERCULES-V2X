@@ -26,7 +26,7 @@ The complete research paper is included in this repository.
 
 # 🏗 Architecture Overview
 
-![Architecture](Figures/End-to-end%20HERCULELES-V2X.png)
+![Architecture](Figures/End-to-end HERCULES-V2X.png)
 
 ### 🔹 Layer I --- Statistical Guard
 
