@@ -8,7 +8,7 @@
 
 **HERCULES-V2X PRO** is a hierarchical four-layer intrusion detection
 framework designed for secure CAN and V2X communication environments in
-autonomous vehicles.
+autonomous vehicles. It leverages architectural modifications for deep learning models to accommodate innovative solutions.  
 
 Unlike conventional IDS systems that optimize only classification
 accuracy, HERCULES-V2X PRO integrates:
