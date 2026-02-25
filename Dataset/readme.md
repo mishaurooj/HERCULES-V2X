@@ -46,6 +46,8 @@ Song, Hyun Min, Jiyoung Woo, and Huy Kang Kim. "In-vehicle network intrusion det
 
 Seo, Eunbi, Hyun Min Song, and Huy Kang Kim. "GIDS: GAN based Intrusion Detection System for In-Vehicle Network." 2018 16th Annual Conference on Privacy, Security and Trust (PST). IEEE, 2018.'
 
+https://ocslab.hksecurity.net/Datasets/car-hacking-dataset
+
 https://www.kaggle.com/datasets/pranavjha24/car-hacking-dataset
 
 This Kaggle dataset is a mirror of the original HCRL work.
